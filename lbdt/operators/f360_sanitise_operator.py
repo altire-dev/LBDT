@@ -11,7 +11,7 @@ from bpy.types import Operator
 
 class Fusion360SanitiseOperator(Operator):
     bl_idname = "lb.clean_parent"
-    bl_label = "Clean Parent"
+    bl_label = "Fusion 360 Sanitiser "
 
     def execute(self, context):
         print("RUNNING")

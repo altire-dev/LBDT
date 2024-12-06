@@ -5,7 +5,7 @@ bl_info = {
     "name": "Lordbound Dev Tools",
     "description": "A collection of tools and utilities for the Lordbound Development Team",
     "author": "Altire",
-    "version": (0, 0, 1),
+    "version": (0, 0, 2),
     "blender": (3, 6, 0),
     "location": "3D Viewport > Sidebar > Lordbound",
     "category": "Development",

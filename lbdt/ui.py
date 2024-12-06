@@ -32,7 +32,7 @@ class VIEW3D_PT_LBDT_Panel(bpy.types.Panel):
 
         # Create an option in our Panel!
         row = self.layout.row()
-        row.operator(Fusion360SanitiseOperator.bl_idname, text="Clean Parent", icon="SNAP_FACE")
+        row.operator(Fusion360SanitiseOperator.bl_idname, text="Fusion 360 Sanitiser", icon="OUTLINER_OB_FORCE_FIELD")
 
         export_box = self.layout.box()
 
@@ -46,6 +46,6 @@ class VIEW3D_PT_LBDT_Panel(bpy.types.Panel):
 
         row = export_box.row()
 
-        row.operator(LBExportNIFOperator.bl_idname, text="Export NIF")
+        row.operator(LBExportNIFOperator.bl_idname, text="Export NIF", icon="EXPORT")
 
 
